@@ -1,5 +1,7 @@
 
 
+var regexMail = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+\.([a-z]+)?$/i
+var email = regexMail.exec()
 //funcao maquina de escrever.
 var span = document.getElementById('write-alone')
 function machineWrite(el) {
@@ -8,7 +10,7 @@ function machineWrite(el) {
   textArr.forEach((letter, i) => {
     setTimeout(() => {
       el.innerHTML += letter
-    }, 30 * i);
+    }, 40 * i);
   })
 }
 
@@ -72,9 +74,13 @@ function stopWatch(duration, display) {
   function validate() {
 
     let name = document.getElementById('name')
-    let mail = document.getElementById('mail')
+    let mail = document.getElementById('mail').value
     let tel = document.getElementById('tel')
     let comment = document.getElementById('comment')
+
+  
+
+ 
 
     if (name.value == '') {
       span.remove()
@@ -84,7 +90,7 @@ function stopWatch(duration, display) {
       document.getElementById('welcome').appendChild(span)
       machineWrite(span)
     }
-    else if (mail.value == '') {
+    else if (mail == '') {
       span.remove()
       span = document.createElement('p')
       span.innerHTML = 'Campo email não pode ficar vázio!'

@@ -23,7 +23,7 @@ body{
 
 header{
     background: var(--laranja-escuro);
-    display: block;
+    display: flex;
     height: 100px;
 
 }
@@ -68,7 +68,14 @@ main{
     margin-top: 110px;
 }
 
+#img-home{
+    width: 100px;
+    margin: 0 auto;
+}
 
+#img-home img{
+    width: 100px;
+}
 #write-alone::after{
     content: '|';
     margin-left: 5px;
