@@ -26,7 +26,7 @@ Have a browser capable of running current versions of CSS, HTML and JavaScript.
   <tr>
     <td>5</td>
     <td>3</td>
-    <td>ES5</td>
+    <td>ES6</td>
   </tr>  
 </table>  
 
