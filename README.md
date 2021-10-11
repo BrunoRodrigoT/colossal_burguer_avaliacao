@@ -4,6 +4,8 @@
 
 ### It is a web application planned by Colossal Burguer - Fast Food Group, Where we reserve, communicate and interact with a fun and interactive fast food platform.
 
+![alt text](https://github.com/BrunoRodrigoT/colossal_burguer_avaliacao/blob/main/menu/Reservas/reservas_img/gif%20logo.gif)
+
 ## Prerequisites for running the application:
 
 Have a browser capable of running current versions of CSS, HTML and JavaScript.
@@ -40,4 +42,4 @@ Have a browser capable of running current versions of CSS, HTML and JavaScript.
 * **Contacts - Clemeson Alves** - (https://github.com/clemeson)
 <br>
 
-![alt text](https://github.com/BrunoRodrigoT/colossal_burguer_avaliacao/blob/main/menu/Reservas/reservas_img/gif%20logo.gif)
+
