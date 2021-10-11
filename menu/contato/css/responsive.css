@@ -27,17 +27,15 @@
         animation: logo 1.5s;
         position: absolute;
         left: 10%;
-
     
     }
-
 }
 
 
 
 @media (max-width:850px){
     #container1 img{
-        visibility: hidden;
+       visibility: hiden;
     }
 
     #container1{
@@ -48,7 +46,6 @@
 @media (max-width: 530px){
     #container2{
         width: 100%;
-
     }
 
     #checked{
