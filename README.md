@@ -38,6 +38,6 @@ Have a browser capable of running current versions of CSS, HTML and JavaScript.
 * **Reserves - Bruno Rodrigo** - (https://github.com/BrunoRodrigoT)
 * **Menu - Maria Eduarda** - (https://github.com/MariaEduarda202)
 * **Contacts - Clemeson Alves** - (https://github.com/clemeson)
-
+<br>
 
 ![alt text](https://github.com/BrunoRodrigoT/colossal_burguer_avaliacao/blob/main/menu/Reservas/reservas_img/gif%20logo.gif)
