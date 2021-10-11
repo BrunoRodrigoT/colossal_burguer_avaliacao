@@ -15,7 +15,7 @@ function machineWrite(el) {
 machineWrite(span)
 
 
-
+//funcao checkout, chamada quando o o formulario é validado
 function checkout() {
   let form = document.getElementById('form');
   let name = document.getElementById('name').value
@@ -23,7 +23,7 @@ function checkout() {
   form.remove()
 
   let check = document.createElement('p')
-  check.innerHTML = `Muito obrigado ${name}, aguarde!`
+  check.innerHTML = `Muito obrigado ${name}, em menos de 1 minuto entraremos em contato!`
   let checked = document.createElement('div')
   checked.id = 'checked'
   checked.innerHTML = 'Aguarde!'
@@ -37,7 +37,7 @@ function checkout() {
   document.getElementById('welcome').appendChild(checked)
 
   //duracão do cronometo, e elemento em qualserá iserido
-  let duration = 60 * 5
+  let duration = 60 * 1
   let display = document.getElementById('checked')
 
   //chamando funcao cronometro
